@@ -53,7 +53,7 @@ def train(datasetGen, epochs):
      # Produce images for the GIF as you go
     display.clear_output(wait=True)
     generate_and_save_images(generator_g,
-                              epoch + 1,                                         #training model
+                              epoch + 1,                                         
                               )
  
     # Save the model every 15 epochs
@@ -69,4 +69,4 @@ def train(datasetGen, epochs):
                            seed)
                            
                            
- train(datasetGen, epochs)     # error showing GPU overloaded
+ train(datasetGen, epochs)     
